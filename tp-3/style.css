@@ -133,6 +133,11 @@ button::before {
   margin-right: 32px;
 }
 
+.filters {
+  display: flex ;
+  grid-template-columns: 4fr;
+}
+
 .filter {
   display: flex;
   align-items: center;
@@ -520,6 +525,10 @@ footer ul > li a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .filters {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
   .result {
     display: grid;
     grid-template-columns: 1fr;
