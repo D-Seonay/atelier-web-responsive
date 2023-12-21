@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    display: flex;
+    border-radius: 25px;
+
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+        .div1 { 
+            float: left;
+            width: 200px;
+            height: 50px;
+            background-color: #F9F871;
+            color: black;
+        }
+
+        .div4 { 
+            float: left;
+            width: 200px;
+            height: 100px;
+            background-color: #00988A;
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+
+        .right1 {
+            display: flex;
+
+            .div2 { 
+                float: left;
+                width: 100px;
+                height: 50px;
+                background-color: #9EDE79;
+            }
+    
+            .div3 { 
+                float: left;
+                width: 100px;
+                height: 50px;
+                background-color: #4DBC86;
+            }
+
+        }
+
+        .right2 {
+            display: flex;
+
+            .div5 { 
+                float: left;
+                width: 50%;
+                height: 50px;
+                background-color: #00717E;
+            }
+            .div6 { 
+                float: left;
+                width: 50%;
+                height: 50px;
+                background-color: #084C61;
+            }
+        }
+
+        .div7 { 
+            float: left;
+            width: 200px;
+            height: 50px;
+            background-color: #354A53;
+        }
+
+    }
+
+}
+
+.div8 { 
+    float: center;
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
